@@ -21,7 +21,9 @@ const CounterApp = () => {
   const handleDecrement = (id) => {
     setCounters((prevCounters) =>
       prevCounters.map((counter) =>
-        counter.id === id ? { ...counter, value: counter.value - 1 } : counter
+        counter.id === id
+          ? { ...counter, value: Math.max(counter.value - 1, 0) } // Ensure value doesn't go below 0
+          : counter
       )
     );
   };
