@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 5%;
+  }
+  
+  .oz {
+    width: 400px;
+    height: 55px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background: rgb(138, 138, 138);
+    margin: 15px;
+  }
+  
+  .oz > * {
+    font-size: 30px;
+  }
+  
+  .btn1,
+  .btn2,
+  .btn3,
+  .btn4,
+  .btn5 {
+    width: 103px;
+    height: 55px;
+  }
+  
+  .number {
+    margin-top: 15px;
+    width: 103px;
+    height: 55px;
+  }
+  
+  .step {
+    font-size: 30px;
+    width: 159px;
+    color: white;
+  }
+  
+  input {
+    width: 100px;
+    height: 25px;
+    border: solid #89ff89de;
+    border-radius: 6px;
+    padding: 5px 5px;
+    margin: 15px;
+    text-align: center;
+  }
+  
+  .ozx {
+    margin-top: 5%;
+  }
+  .ozxup {
+    margin-top: 28%;
+
+    font-size: 10px;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 5%;
+  }
+  
+  .oz {
+    width: 400px;
+    height: 55px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background: rgb(138, 138, 138);
+    margin: 15px;
+  }
+  
+  .oz > * {
+    font-size: 30px;
+  }
+  
+  .btn1,
+  .btn2,
+  .btn3,
+  .btn4,
+  .btn5 {
+    width: 103px;
+    height: 55px;
+  }
+  
+  .number {
+    margin-top: 15px;
+    width: 103px;
+    height: 55px;
+  }
+  
+  .step {
+    font-size: 30px;
+    width: 159px;
+    color: white;
+  }
+  
+  input {
+    width: 100px;
+    height: 25px;
+    border: solid #89ff89de;
+    border-radius: 6px;
+    padding: 5px 5px;
+    margin: 15px;
+    text-align: center;
+  }
+  
+  .ozx {
+    margin-top: 5%;
+  }
+  .ozxup {
+    margin-top: 28%;
+
+    font-size: 10px;
+  }
+
+.ozxx{
+    text-align: center;
+    margin-top:5%;
+}
